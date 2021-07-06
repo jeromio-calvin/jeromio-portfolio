@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;
+}
+
+.orange-color{
+    color:orange;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+/* About Section */
+
+.about-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 45%;
+    padding-left: 5%;
+}
+
+.about-section div img{
+    width: 70%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 4px;
+}
+
+
+/* Big-Dream Section */
+
+.dream-big{
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.dream-big img{
+    width: 70%;
+}
+
+.mahbub-linkedin{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* Experience Section */
+
+.experience-section{
+    margin-top: 100px;
+}
+
+.experience-section h1{
+    text-align: center;
+}
+
+.experience-item{
+    background-color: white;
+    width: 45%;
+    margin:2rem 3%;
+    padding:2rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+#software{
+    border-left: 7px solid;
+    border-image:  linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#web{
+    border-left: 7px solid;
+    border-image:  linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    background-color: cornsilk;
+    padding: 1rem;
+}
